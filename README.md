@@ -137,4 +137,3 @@ This will run the test cases for the `MerkleAirdrop` contract to ensure its corr
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
