@@ -58,4 +58,9 @@ contract MerkleAirdrop {
         // Emit an event to log the successful claim
         emit SuccessfulClaim(msg.sender, amount);
     }
+
+     function getContractBalance() external view returns(uint256) {
+        // onlyOwner();
+        return IERC20(airDropTokenAddress).balanceOf(address(this));
+    }
 }
